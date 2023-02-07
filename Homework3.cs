@@ -1,4 +1,4 @@
-﻿namespace HomeWork3;
+namespace HomeWork3;
 class Program
 {
     static void Main(string[] args)
@@ -62,10 +62,29 @@ class Program
             Console.WriteLine("");
         }              
 }
+//Bonus Q
+{
+    Console.WriteLine("Assign an int value to N:");
+        int N = Convert.ToInt32(Console.ReadLine());
+
+        for (int row = 0; row < N; row++) {
+            for (int col = 0; col < N; col++){
+                if (col >= N - row-1){
+                    Console.Write(row+1);}
+                    else{
+                        Console.Write(" ");
+                    }
+                }
+                Console.WriteLine("");
+}
+
+
+
 
 }              
 
     }
+}
 
 
 
